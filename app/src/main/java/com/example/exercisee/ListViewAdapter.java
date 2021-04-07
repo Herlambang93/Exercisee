@@ -57,7 +57,10 @@ public class ListViewAdapter extends BaseAdapter {
 
     }
 
-
+    @Override
+    public void notifyDataSetChanged() {
+        super.notifyDataSetChanged();
+    }
 }
 
 

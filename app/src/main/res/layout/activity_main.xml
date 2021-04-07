@@ -45,15 +45,15 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.450">
+        app:layout_constraintVertical_bias="0.45">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edEmail"
-            android:background="@drawable/edtx_custom"
-            android:layout_width="293dp"
-            android:layout_height="41dp"
+            android:layout_width="290dp"
+            android:layout_height="53dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:background="@drawable/edtx_custom"
             android:hint="@string/tEmail"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>

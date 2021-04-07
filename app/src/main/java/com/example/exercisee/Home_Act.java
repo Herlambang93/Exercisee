@@ -9,11 +9,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.PopupMenu;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class Home_Act extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
+public class Home_Act extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener, SearchView.OnQueryTextListener {
 
     private ListView list;
     private ListViewAdapter adapter;
@@ -73,6 +74,16 @@ public class Home_Act extends AppCompatActivity implements PopupMenu.OnMenuItemC
                         Toast.LENGTH_LONG).show();
                 break;
         }
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
         return false;
     }
 }

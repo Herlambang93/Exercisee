@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Exercisee">
         <activity android:name=".Pendaftaran" android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".ActLihatData" android:parentActivityName=".Home_Act" android:label="@string/app_name"/>
+        <activity android:name=".ActLihatData" android:parentActivityName=".Home_Act" android:label="@string/datakontak"/>
         <activity android:name=".Home_Act" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".validasi_ep"

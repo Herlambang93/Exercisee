@@ -66,6 +66,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Daftar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.this.startActivity(new Intent(MainActivity.this.getApplicationContext(),Pendaftaran.class));
+            }
+        });
+
+
 
     }
 }
